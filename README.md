@@ -29,5 +29,5 @@ Developed a Flutter-based mobile application for Atma Cinema, providing a seamle
 ![tickets](Backend/public/untukReadme/tickets.png)
 ![profileCinema](Backend/public/untukReadme/profileCinema.png)
 ![editProfile](Backend/public/untukReadme/editProfile.png)
-![review](Backend/public/untukReadme/review.png.png)
+![review](Backend/public/untukReadme/review.png)
 
