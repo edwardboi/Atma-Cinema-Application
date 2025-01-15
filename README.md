@@ -14,16 +14,9 @@ Developed a Flutter-based mobile application for Atma Cinema, providing a seamle
 </ul>
 
 ### User Interface
-<table>
-<tr>
-    <td>![splash](Backend/public/untukReadme/splash.jpg) </td>
-    <td>![greet](Backend/public/untukReadme/greet.jpg) </td>
-</tr>
-</table>
-
-![splash](Backend/public/untukReadme/splash.jpg)
-![greet](Backend/public/untukReadme/greet.jpg)
-![login](Backend/public/untukReadme/login.jpg)
+![splash](Backend/public/untukReadme/splash2.png)
+![greet](Backend/public/untukReadme/greet2.png)
+![login](Backend/public/untukReadme/login2.jng)
 ![welcome](Backend/public/untukReadme/welcome.png)
 ![welcome2](Backend/public/untukReadme/welcome2.png)
 ![sinopsis](Backend/public/untukReadme/sinopsis.png)
