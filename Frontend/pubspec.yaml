@@ -1,0 +1,99 @@
+  name: main
+  description: "A new Flutter project."
+  publish_to: "none"
+  version: 1.0.0+1
+
+  environment:
+    sdk: ">=2.19.5 <3.0.0"
+
+  dependencies:
+    flutter:
+      sdk: flutter
+
+    cupertino_icons: ^1.0.2
+    font_awesome_flutter: ^10.7.0
+    url_launcher: ^6.3.0
+    flutter_svg: ^2.0.10+1
+    awesome_dialog: ^3.2.1
+    carousel_slider: ^4.2.1
+    intl: ^0.18.0
+    qr_flutter: ^4.1.0
+    pdf: ^3.11.1
+    responsive_sizer: ^3.3.1
+    printing: ^5.12.0
+    barcode: ^2.2.8
+    flutter_riverpod: ^2.6.1
+    http: ^1.2.2
+    shared_preferences: ^2.1.0
+    image_picker: ^0.8.5+3
+    image: ^4.1.0
+    path_provider: ^2.0.12
+    speech_to_text: ^7.0.0
+
+  dev_dependencies:
+    camera: ^0.10.5+2
+    flutter_test:
+      sdk: flutter
+    flutter_lints: ^5.0.0
+
+  flutter:
+    uses-material-design: true
+
+    assets:
+      - images/
+      - images/booknow.png
+      - images/Google.png
+      - images/tape.png
+      - images/logo.png
+      - images/rectangle.png
+      - images/menu/
+      - images/menu/baconSausage.jpg
+      - images/menu/dumpling.jpg
+      - images/menu/hotdog.jpg
+      - images/menu/ramen.jpg
+      - images/menu/limeMojito.jpg
+      - images/foto1.png
+      - images/foto2.jpg
+      - images/foto3.jpg
+      - images/movie/
+      - images/movie/movie1.jpg
+      - images/movie/movie2.jpg
+      - images/movie/movie3.jpg
+      - images/movie/movie4.jpg
+      - images/movie/movie5.jpg
+      - images/movie/movie6.jpg
+      - images/movie/movie7.jpg
+      - images/movie/movie8.jpg
+      - images/movie/movie9.jpg
+      - images/movie/movie10.jpg
+      - images/studio/
+      - images/studio/studio1.jpg
+      - images/studio/studio2.jpg
+      - images/studio/studio3.jpg
+      - images/actor/
+      - images/actor/actor1.png
+      - images/actor/actor2.png
+      - images/actor/actor3.png
+      - images/actor/actor4.png
+      - images/actor/actor5.png
+      - images/actor/movie3cast.png
+      - images/photo/
+      - images/photo/photos1.jpg
+      - images/payment/
+      - images/payment/gopay.png
+      - images/payment/dana.png
+      - images/payment/ovo.png
+      - images/payment/shoppepay.png
+      - images/payment/qris.png
+      - images/payment/motic.png
+      - images/payment/reel.png
+      - images/appbarMenu/popcorn.png
+      - images/appbarMenu/hand.png
+  
+
+
+    # fonts:
+    # - family: Inter
+    #   fonts:
+    #     - asset: assets/fonts/Inter-Semi Bold.ttf
+    #     - asset: assets/fonts/Inter-Extra Bold.ttf

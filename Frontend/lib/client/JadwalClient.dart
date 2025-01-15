@@ -1,0 +1,46 @@
+import 'package:main/entity/jadwal.dart';
+
+import 'dart:convert';
+import 'package:http/http.dart';
+
+class JadwalClient {
+  static final String url = 'ivory-stingray-881568.hostingersite.com'; // base url
+  static final String endpoint = '/api/jadwal'; // base endpoint
+
+
+  static Stream<List<Jadwal>> fetchAllStream() async* {
+    while (true) {
+      List<Jadwal> jadwals = await fetchAll();
+      yield jadwals; 
+      await Future.delayed(Duration(seconds: 5));  
+    }
+  }
+
+  static Future<List<Jadwal>> fetchAll() async {
+    try {
+      var response = await get(Uri.https(url, endpoint));
+
+      if(response.statusCode != 200) throw Exception(response.reasonPhrase);
+
+      Iterable list = json.decode(response.body)['data'];
+
+      return list.map((e) => Jadwal.fromJson(e)).toList();
+    } catch (e) {
+      throw Future.error(e.toString());
+    }
+  }
+
+  static Future<List<Jadwal>> fetchJadwalHariIni() async {
+    try {
+      var response = await get(Uri.https(url, '$endpoint/hari/ini'));
+
+      if(response.statusCode != 200) throw Exception(response.reasonPhrase);
+
+      Iterable list = json.decode(response.body)['data'];
+
+      return list.map((e) => Jadwal.fromJson(e)).toList();
+    } catch (e) {
+      throw Future.error(e.toString());
+    }
+  }
+}
