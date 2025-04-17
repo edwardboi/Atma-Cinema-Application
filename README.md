@@ -4,6 +4,13 @@
 Developed a Flutter-based mobile application for Atma Cinema, providing a seamless and user-friendly ticket booking experience. The app supports API integration for real-time data synchronization and includes text-to-speech functionality to enhance accessibility, allowing users to interact with key features effortlessly.
 </p>
 
+### Technology Used :
+<ul>
+    <li>Flutter</li>
+    <li>Laravel (Backend)</li>
+    <li>MySQL (Database)</li>
+</ul>
+
 ### Group Member : 
 <ul>
     <li>Edwardy (220711676)</li>
